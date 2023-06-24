@@ -1,0 +1,75 @@
+%Autor: Stanislav Letaši xletas00
+\documentclass[a4paper, 11pt]{article}
+\usepackage[czech,slovak]{babel}
+\usepackage[IL2]{fontenc}
+\usepackage[a4paper, total={170mm, 240mm}, top=3cm, left=2cm]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage{url}
+\usepackage[hidelinks,breaklinks]{hyperref}
+\begin{document}
+
+\begin{titlepage}
+   \begin{center}
+    \Huge
+    
+    {\textsc{Vysoké učení technické v~Brně}}\\
+    {\textsc{\huge Fakulta informačních technologií}}\\
+    \vspace{\stretch{0.382}}
+    
+    \LARGE
+    Typografie a publikování\,--\,4. projekt\\
+    \Huge Kybernetická bezpečnosť
+       
+    \vspace{\stretch{0.618}}
+
+    \Large \today \hspace{\stretch{1}} Stanislav Letaši
+            
+   \end{center}
+\end{titlepage}
+
+\section{Úvod}
+Bezpečnosť na internete je téma, ktorá v~dnešnom digitálnom svete nadobúda každým dňom stále väčšiu podstatu. V~dnešnej dobe je internet integrovaný do každodenného života čoraz viac, čo znamená, že ľudia sa musia učiť chrániť si svoje osobné údaje pred neoprávneným prístupom. 
+
+\section{Ako sa ochrániť}
+Výskumníci z~oblasti kybernetickej bezpečnosti zdôrazňujú, že 
+je dôležité používať aktualizovaný antivírusový software a 
+firewall pre ochranu počítača pred útokmi z~internetu \cite{johnson2015cybersecurity}. Taktiež spomínajú, že chrániť 
+si svoje citlivé informácie pomocou silných hesiel a správneho 
+šifrovania je v~dnešnej dobe \underline{nevyhnutné}. 
+Slabé heslá môžu byť totiž častokrát zneužité hackermi, ktorí 
+dokážu pomocou slovníkového útoku získať prístup na osobný účet napadnutej osoby, alebo do systému cieľovej organizácie~\cite{hodes2015moderni}. {\it Journal of Cybersecurity} zverejnil 
+článok, v~ktorom sa autori zaoberajú problematikou vytvárania 
+bezpečných hesiel na internete \cite{10.1093/cybsec/tyab012}. 
+Štúdia Oxfordskej univerzity, ktorú článok spomína zistila, že 
+väčšina ľudia je v~dnešnej dobe oveľa viac obozretná, a dbajú 
+na vytváranie si silnejších hesiel a nepoužívanie rovnakého 
+hesla na viacerých stránkach. 
+
+\section{Wiper malware}
+V~roku 2022 boli pre digitálny svet najväčšou hrozbou takzvané 
+\uv{wiper attacks}. Ako je spomenuté v~článku z~{\it Infosecurity Magazine} \cite{poireault-infosecmagazine-q1-2023}, \uv{wipers} 
+sú formou malware, ktorý nenávratne prepisuje dáta. Tieto útoky 
+boli využité niektorými hackerskými skupinami pre finančný zisk 
+tým, že sa vyhrážali postupným vymazaním systému, pokiaľ im 
+napadnutá strana nevyplatí žiadané výkupné.
+
+\section{Nové technológie}
+Ziska Fields v~svojej knihe \cite{fields2018handbook} spomína, že v~dnešnej dobe rýchleho vývoja technológií, ktoré sú súčasťou \uv{štvrtej priemyselnej revolúcie} je kybernetická bezpečnosť stále dôležitejšia. Taktiež zdôrazňuje potrebu rozvoja nových zabezpečovacích opatrení a technológií, ktoré budú schopné ochrániť všetky aspekty kybernetickej bezpečnosti.
+
+Za posledné roky sa kybernetické útoky stávajú viac sofistikované a útočníci začínajú využívať stále novšie technológie a metódy. Preto je dôležité, aby organizácie neustále aktualizovali svoje bezpečnostné opatrenia a sledovali aktuálne trendy v~oblasti kybernetickej bezpečnosti. Podľa {\it Forbes} článku {\it Top Cybersecurity Predictions 2023} \cite{sayegh2022top} bude rozvoj Secure access service edge a Zero Trust Adoption najväčšími pokrokmi tohto roku v~oblasti kybernetickej bezpečnosti.
+
+\section{SASE a Zero Trust}
+\textbf{Secure access service edge}\,-\,SASE, je nové riešenie pre prepojenie sietí a ochranu pred bezpečnostnými hrozbami \cite{chen2023overview}. SASE poskytuje užívateľom bezpečný priamy prístup ku cloudu, bez nutnosti pripájania sa prostredníctvom MPLS alebo VPN, a ponúka užívateľom bezpečnú bránu pre webové služby, izoláciu vzdialeného prehliadača a taktiež prevenciu prienikov.
+
+\textbf{Zero trust} je prístup ku kybernetickej bezpečnosti, ktorý vychádza z~myšlienky, že žiadne pripojenie k~firemným sieťam a systémom by nemalo byť považované za dôveryhodné \cite{pratt2022history}. Model zero trust vyžaduje overenie užívateľov, zariadení a systémov pred pripojením a opakované overovanie pri prístupu k~sieťam, systémom a dátam. Podľa nedávnych správ sa stále viac organizácií rozhoduje pre prístup zero trust, a percento organizácií prechádzajúcich k~tomuto prístupu bude naďalej len rásť. 
+
+\section{Stále nebezpečenstvo Phishing útokov}
+Aj napriek nespočetným technológiám na ochranu bezpečnosti užívateľov a spoločností je jeden z najčastejších spôsobov ako útočníci získajú prístup do systému phishing. Phishing útok je forma sociálneho inžinierstva, v~ktorej sa útočník vydáva za dôveryhodnú osobu a snaží sa od obete získať citlivé informácie alebo prístup do zabezpečeného systému \cite{Dohnal2022thesis}. V~snahe zabrániť týmto útokom bolo vyvinutých veľa ochranných systémov, najnovšie systémy používajúce umelú inteligenciu na rozpoznanie varovných signálov nachádzajúcich sa vo phishingových správach \cite{sennovate:2023}.
+
+\section{Záver}
+S~vývojom nových technológií na ochranu pred kybernetickými útokmi bohužiaľ prichádzajú aj nové spôsoby ako tieto ochrany obísť. Neopatrnosť len jedného človeka môže viesť napríklad k~napadnutiu vnútorného systému spoločnosti, v~ktorej pracuje. Preto je stále relevantné zostať obozretný a riadiť sa základnými pravidlami internetovej bezpečnosti, ako používanie silných hesiel, vyhýbanie sa podozrivým stránkam a sťahovanie súborov z~neoverených zdrojov. 
+
+\bibliographystyle{czechiso}
+\bibliography{citations.bib} 
+
+\end{document}
